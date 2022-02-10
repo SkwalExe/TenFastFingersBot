@@ -30,6 +30,7 @@ node index.js
 # SKIDS 👶
 please don't copy this code or at least credit me 
 # final
-If you have any probleme, don't hesitate to open an issue
+* If you have any probleme, don't hesitate to open an issue
+* One of my similar project : [TypeRacer-F1](https://github.com/SkwalExe/TypeRacer-F1)
 # contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
