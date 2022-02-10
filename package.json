@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "input": "^1.0.1",
+    "puppeteer": "^13.3.0"
+  }
+}
