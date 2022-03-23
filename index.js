@@ -11,9 +11,10 @@
 
 const puppeteer = require('puppeteer');
 
+// button to click to accept cookies
 var cookieSelector = '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll';
 
-
+// function to sleep in milliseconds
 function sleep(ms) {
     return new Promise((resolve) => {
         setTimeout(resolve, ms);
@@ -24,7 +25,7 @@ function log(...args) {
     process.stdout.write(...args);
 }
 
-(async() => {
+(async () => {
 
     const browser = await puppeteer.launch({
         headless: false,
@@ -36,9 +37,10 @@ function log(...args) {
     // open 10fastfingers.com
     page.goto('https://10fastfingers.com/typing-test/english');
 
-
+    // wait for cookie popup
     await page.waitForSelector(cookieSelector);
     sleep(500)
+    // accept cookies
     page.click(cookieSelector);
 
     // focus on the textarea
@@ -60,14 +62,21 @@ function log(...args) {
         var word = await page.$eval(`span[wordnr = "${i}"]`, e => e.textContent)
 
         for (var letter = 0; letter < word.length; letter++) {
+            // for each letter
 
+            // log it in the console
             log(word[letter])
 
-            await sleep(35)
+            await sleep(35) // delay between each letter
+
+            // type the letter
             page.keyboard.type(word[letter])
 
         }
+
+        // type a space to move to the next word
         page.keyboard.type(' ');
+
         log(" ")
         i++;
     }
