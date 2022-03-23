@@ -1,6 +1,6 @@
 # 10FastFingersBot
 
-![screenshot](screenshot.gif)
+![screenshot](images/screenshot.gif)
 
 ⌨️ Bot for 10fastfingers.com
 
@@ -43,6 +43,14 @@ In the terminal, run
 # /TenFastFingersBot
 node index.js
 ```
+
+# Troubleshooting 💥
+
+if nothing happens, and you have this popup
+
+![](images/cookie.png)
+
+> **Restart the script**
 
 # SKIDS 👶
 
