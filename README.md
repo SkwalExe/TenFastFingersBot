@@ -4,7 +4,7 @@
 
 ⌨️ Bot for 10fastfingers.com
 
-# Disclamer
+# Disclamer⚠️
 
 **This program is only for educational purposes and doesn't incite you to cheat.**
 
@@ -12,26 +12,28 @@
 
 ## Install npm and [nodejs](https://nodejs.org/en/) 
 
-### Arch 🌠
+### Arch 🐧
 
 ```bash
 sudo pacman -S npm nodejs
 ```
 
-### Debian 
+### Debian based distros 🐧
 
 ```bash 
 sudo apt install nodejs
 ```
 
-### 💩 Windows 💩 
+### Windows 🪟
 
 Download and install nodejs from [here](https://archlinux.org/download/)
+
+Then follow [install modules](#install-modules) and [usage](#usage-)
 
 ## Install modules
 
 ```bash
-# /TenFastFingersBot
+# 📂 TenFastFingersBot/
 npm install
 ```
 
@@ -40,7 +42,7 @@ npm install
 In the terminal, run
 
 ```bash
-# /TenFastFingersBot
+# 📂 TenFastFingersBot/
 node index.js
 ```
 
