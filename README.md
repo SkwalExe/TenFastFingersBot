@@ -30,8 +30,6 @@ Download and install nodejs from [here](https://nodejs.org/en/)
 
 Then follow [install modules](#install-modules) and [usage](#usage-)
 
-Then follow [install modules](#install-modules) and [usage](#usage-)
-
 ## Install modules
 
 ```bash
