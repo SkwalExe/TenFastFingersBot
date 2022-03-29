@@ -26,7 +26,9 @@ sudo apt install nodejs
 
 ### Windows 🪟
 
-Download and install nodejs from [here](https://archlinux.org/download/)
+Download and install nodejs from [here](https://nodejs.org/en/)
+
+Then follow [install modules](#install-modules) and [usage](#usage-)
 
 Then follow [install modules](#install-modules) and [usage](#usage-)
 
